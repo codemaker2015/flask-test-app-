@@ -33,4 +33,4 @@ jobs:
           echo "Working directory: $(pwd)"
           echo "Listing files: $(ls -l)"
       - name: Run app
-        run: python app.py
+        run: python test_hello.py
